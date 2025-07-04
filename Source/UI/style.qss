@@ -1,0 +1,67 @@
+QWidget {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: "VictorMono NF";
+    font-size: 16px;
+}
+
+QWidget#main {
+    background-color: #000000;
+}
+
+QListWidget {
+    background-color: transparent;
+}
+
+QTreeView {
+    alternate-background-color: #2F2E2E; /* Цвет чередующихся строк */
+    background-color: transparent;
+}
+
+QTreeView::header {
+    background-color: transparent;
+}
+
+QHeaderView::section {
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 4px;
+}
+
+QWidget#widgetElement {
+    background-color: #222121;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* ScrollBar */
+QScrollBar:vertical {
+    background-color: #555555;
+    border-radius: 4px;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #888888;
+    border-radius: 4px;
+    min-height: 10px;
+}
+
+/* ScrollBar| Hide buttons */
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical,
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    height: 0px;
+    subcontrol-origin: margin;
+}
+
+/* Folders */
+QLabel#folderPackagesCount {
+    background: #414040;
+    border-radius: 8px;
+    padding: 2px 6px;
+}

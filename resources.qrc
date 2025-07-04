@@ -1,0 +1,10 @@
+<RCC>
+    <qresource>
+        <file>Resources/Icons/Package.svg</file>
+        <file>Source/UI/style.qss</file>
+        <file>Resources/FolderCover/CatWithBox.png</file>
+        <file>Resources/FolderCover/Dependencies.png</file>
+        <file>Resources/FolderCover/HackerCat.png</file>
+        <file>Resources/FolderCover/Rocket.png</file>
+    </qresource>
+</RCC>
